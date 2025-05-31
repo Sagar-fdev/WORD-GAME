@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Word Game</title>
+    <link rel="stylesheet" href="word.css">
+    <script defer src="word.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <h1>GUESS THE WORD</h1>
+    <div class="container">
+        <div class="gameCards">
+            <div class="cards active" data-option="Animals">
+                <i class="fa-solid fa-paw"></i> Animals
+            </div>
+            <div class="cards" data-option="Foods">
+                <i class="fa-solid fa-utensils"></i> Foods
+            </div>
+            <div class="cards" data-option="Sports">
+                <i class="fa-solid fa-medal"></i> Sports
+            </div>
+        </div>
+
+        <div class="playground">
+            <h2 class="questionHint"></h2>
+            <br/>
+            <div class="selectedWords">
+
+            </div>
+            <div class="shuffleWords">
+
+            </div>
+        </div>
+
+        <div class="btn">
+            <button class="startGame">Start Game</button>
+            <button class="resetSelection">Reset Game</button>
+        </div>
+    </div>
+</body>
+
+</html>
